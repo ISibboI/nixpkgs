@@ -17,11 +17,11 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "tribler";
-  version = "8.0.6";
+  version = "8.0.7";
 
   src = fetchurl {
     url = "https://github.com/Tribler/tribler/archive/refs/tags/v${finalAttrs.version}.tar.gz";
-    hash = "sha256-yaE/9T0fuCfgdcJnHtBAB26SzVV7DgH9wwg0xP5QBAI=";
+    hash = "sha256-FlIhQkWgY1Wv62EekkMBuYhjv3W3SmTttSasHnGWzx0=";
   };
 
   nativeBuildInputs = [
